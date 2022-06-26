@@ -29,7 +29,7 @@ implementation:
       limit="$3"
       format="$4"
       mkdir -p "$(dirname "$output_path")"
-      curl --get 'https://data.cityofchicago.org/api/views/wrvz-psew/rows.csv?accessType=DOWNLOAD' \
+      curl --get 'https://data.cityofchicago.org/api/views/wrvz-psew/rows.csv' \
           --data-urlencode '$limit='"${limit}" \
           --data-urlencode '$where='"${where}" \
           --data-urlencode '$select='"${select}" \
