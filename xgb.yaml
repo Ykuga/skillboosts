@@ -210,7 +210,7 @@ spec:
           "name": "Chicago Taxi Trips dataset", "outputs": [{"description": "Result
           type depends on format. CSV and TSV have header.", "name": "Table"}]}',
         pipelines.kubeflow.org/component_ref: '{"digest": "ecf2f2840c57bd9cb2778c8f529da9b938b81f59294b3f7271cb23b363640343",
-          "url": "https://raw.githubusercontent.com/kubeflow/pipelines/e3337b8bdcd63636934954e592d4b32c95b49129/components/datasets/Chicago%20Taxi/component.yaml"}',
+          "url": "https://github.com/Ykuga/skillboosts/edit/test_gcp/component.yaml"}',
         pipelines.kubeflow.org/arguments.parameters: '{"Format": "csv", "Limit": "10000",
           "Select": "tips,trip_seconds,trip_miles,pickup_community_area,dropoff_community_area,fare,tolls,extras,trip_total",
           "Where": "trip_start_timestamp >= \"2019-01-01\" AND trip_start_timestamp
